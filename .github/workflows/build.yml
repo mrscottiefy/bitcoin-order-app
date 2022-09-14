@@ -50,7 +50,7 @@ jobs:
           npm run test
       - name: Audit
         run: |
-          npm audit fix
+          npm audit fix --force
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
