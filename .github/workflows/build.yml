@@ -48,9 +48,6 @@ jobs:
       - name: Test
         run: |
           npm run test
-      - name: lint
-        run: |
-          ng lint
       - name: Audit
         run: |
           npm audit fix
