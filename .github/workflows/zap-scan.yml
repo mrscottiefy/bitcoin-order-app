@@ -1,8 +1,7 @@
 name: "owasp-scan"
 
 on:
-  push:
-    branches: [githubcicd]
+  workflow_call:
 
 jobs:
   test:

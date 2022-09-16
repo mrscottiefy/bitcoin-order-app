@@ -67,3 +67,5 @@ jobs:
       - name: Deploy
         run: |
           npm run deploy
+  call-workflow1:
+    uses: ./.github/workflows/zap-scan.yaml
